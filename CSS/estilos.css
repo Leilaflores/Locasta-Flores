@@ -1,0 +1,83 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.fondo {
+  background-color: #4b2781;
+}
+
+.texto {
+  color: white;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  height: 95px;
+}
+
+#header img {
+  height: 90%;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5%;
+  align-items: center;
+}
+
+.nav-menu ul {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-menu a {
+  color: white;
+  font-size: 20px;
+}
+
+/* Estilos Footer */
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  height: 30px;
+}
+
+.iconos {
+  display: flex;
+  gap: 10px;
+}
+
+.iconos a i{
+  color: white;
+  font-size: 25px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 767px){
+  .nav-container{
+  flex-direction: column;
+  }
+  .nav-menu ul{
+  flex-direction: column;
+  text-align: center;
+  padding: 10px 10px;
+  }
+  #footer{
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 0;
+    height: auto;
+  }
+}

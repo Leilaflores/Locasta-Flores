@@ -1,0 +1,43 @@
+/* Estilos Conocenos */
+#video-cont {
+  text-align: center;
+  width: 560px;
+}
+
+.video {
+  width: 100%;
+  height: 350px;
+}
+
+#text-conocenos {
+  text-align: justify center;
+}
+#container {
+  height: calc(100vh - 95px - 50px);
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.13);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 30px;
+}
+.conteiner-text {
+  width: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 559px) {
+  #video-cont {
+    width: 90%;
+  }
+  #container{
+    height: auto;
+    padding: 10px 0;
+  }
+}
