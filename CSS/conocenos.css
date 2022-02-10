@@ -15,7 +15,6 @@
 #container {
   height: calc(100vh - 95px - 50px);
   position: relative;
-  background-color: rgba(255, 255, 255, 0.13);
   display: flex;
   align-items: center;
   flex-direction: column;
