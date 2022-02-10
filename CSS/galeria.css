@@ -15,12 +15,16 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
 }
-
+ 
 .img-cont {
   position: relative;
   height: 225px;
   width: 225px;
   justify-self: center;
+  transition: all 1s;
+}
+.img-cont:hover{
+  transform: scale(1.1);
 }
 
 .img-cont img {
