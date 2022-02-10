@@ -32,6 +32,7 @@
   justify-content: space-between;
   padding: 0px 5%;
   align-items: center;
+  background-image: linear-gradient(to bottom, #4b2781, #ffee0033);
 }
 
 .nav-menu ul {
@@ -51,6 +52,7 @@
   padding: 10px;
   align-items: center;
   height: 30px;
+  background-image: linear-gradient(to top, #4b2781, #ffee0023);
 }
 
 .iconos {
