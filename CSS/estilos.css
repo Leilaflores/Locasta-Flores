@@ -8,6 +8,10 @@
   outline: none;
 }
 
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
+
 .fondo {
   background: rgb(18,4,34);
   background: linear-gradient(45deg, rgba(18,4,34,1) 0%, rgba(75,39,129,1) 49%, rgba(255,0,120,1) 100%);
@@ -17,32 +21,9 @@
   color: white;
 }
 
-#header {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  height: 95px;
-}
-
-#header img {
-  height: 90%;
-}
-
-.nav-container {
-  display: flex;
-  justify-content: space-between;
-  padding: 0px 5%;
-  align-items: center;
-}
-
-.nav-menu ul {
-  display: flex;
-  gap: 20px;
-}
-
-.nav-menu a {
-  color: white;
-  font-size: 20px;
+.navbar-brand img{
+  height: 80px;
+  width: 80px;
 }
 
 /* Estilos Footer */
@@ -67,14 +48,6 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 767px){
-  .nav-container{
-  flex-direction: column;
-  }
-  .nav-menu ul{
-  flex-direction: column;
-  text-align: center;
-  padding: 10px 10px;
-  }
   #footer{
     flex-direction: column;
     gap: 10px;

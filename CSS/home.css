@@ -31,10 +31,7 @@
     font-family: sans-serif;
     padding: 15px;
   }
-  .container {
-    margin-top: 200px;
-    position: relative;
-  }
+  
   #titulo {
     margin: 30px;
     text-align: center;
