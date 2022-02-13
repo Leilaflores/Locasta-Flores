@@ -6,9 +6,9 @@ align-self: end;
 
 #container {
   height: calc(100vh - 95px - 50px);
-  text-align: center;
   display: grid;
   gap:40px;
+  background-color: rgba(255, 255, 255, 0.075);
 }
 .form-cont{
   display: flex;
