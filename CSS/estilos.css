@@ -13,12 +13,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .fondo {
-  background: rgb(18,4,34);
-  background: linear-gradient(45deg, rgba(18,4,34,1) 0%, rgba(75,39,129,1) 49%, rgba(255,0,120,1) 100%);
-}
-
-.texto {
-  color: white;
+background: linear-gradient(45deg, rgba(18,4,34,1) 0%, #4b2781 49%, #ff0078 100%);
 }
 
 .navbar{
