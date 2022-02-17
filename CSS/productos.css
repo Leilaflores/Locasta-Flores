@@ -1,17 +1,11 @@
 /* Estilos productos */
 
-.productos{
+/* .productos{
     padding: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 50px;
-}
-
-.titulo{
-    font-size: 25px;
-    text-align: center;
-    padding: 20px;
-}
+} */
 
 #container{
     background-color: rgba(255, 255, 255, 0.075);
@@ -21,25 +15,12 @@
     font-size: 20px;
 }
 
-.vela{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-
-}
-
-.texto-vela{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
  /* MEDIA QUERIES */
- @media screen and (max-width: 1023px){
+/*  @media screen and (max-width: 1023px){
  .vela{
  flex-direction: column;
  text-align: center;}
 }
 @media screen and (max-width: 599px){
     .productos{
-    grid-template-columns: 1fr;}
-}
+    grid-template-columns: 1fr;} */

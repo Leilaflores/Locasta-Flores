@@ -1,37 +1,12 @@
 /* Estilos Contacto */
-
-.titulo{
-align-self: end;
-}
-
 #container {
-  height: calc(100vh - 95px - 50px);
-  display: grid;
-  gap:40px;
   background-color: rgba(255, 255, 255, 0.075);
 }
-.form-cont{
-  display: flex;
-  justify-content: center;
+
+form {
+  width: 300px;
 }
 
-form{
-width: 300px;
-display: flex;
-flex-direction: column;
-gap: 10px;
-}
-
-.input-text{
-  width: 100% ;
-  padding: 3px;
-} 
-
-.botones{
-  display: flex;
-  justify-content: space-around;
-}
-.input-btn{
-width: 35%;
-padding: 3px;
+.input-btn {
+  width: 35%;
 }

@@ -76,37 +76,39 @@
       </div>
     </nav>
     </div>
-    <section id="container" class="text-center vh-100 text-light">
+    <section id="container" class="vh-100">
+      <div class="container h-100 text-center text-light d-flex flex-column justify-content-center align-items-center gap-4">
       <h2 class="titulo">Contacto</h2>
-      <div class="form-cont">
-        <form action="" class="form">
+      <div class="form-cont d-flex justify-content-center ">
+        <form action="" class="form d-flex flex-column gap-2">
           <input
-            class="input-text"
+            class="input-text w-100 p-2"
             type="text"
             id="name"
             placeholder="Nombre y Apellido"
             required
           />
           <input
-            class="input-text"
+            class="input-text w-100 p-2"
             type="email"
             id="email"
             placeholder="Email"
             required
           />
           <textarea
-            class="input-text"
+            class="input-text w-100 p-2"
             id="mensaje"
             placeholder="Escriba aqui..."
             style="resize: none"
             required
           ></textarea>
-          <div class="botones">
-            <input class="input-btn" type="submit" id="enviar" value="Enviar" />
-            <input class="input-btn" type="reset" id="borrar" value="Borrar" />
+          <div class="botones d-flex justify-content-around">
+            <input class="input-btn p-1" type="submit" id="enviar" value="Enviar" />
+            <input class="input-btn p-1" type="reset" id="borrar" value="Borrar" />
           </div>
         </form>
       </div>
+    </div>
     </section>
     <footer id="footer" class="position-fixed bottom-0 w-100 text-light">
       <div class="container d-flex flex-column justify-content-between align-items-center p-2 flex-sm-row">
