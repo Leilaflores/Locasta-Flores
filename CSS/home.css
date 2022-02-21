@@ -1,7 +1,7 @@
 /* Estilos home */
 
 .banner {
-    background: url("/multimedia/banner.jpg") no-repeat;
+    background: url("../multimedia/banner.jpg") no-repeat;
     background-size: cover;
   }
   
