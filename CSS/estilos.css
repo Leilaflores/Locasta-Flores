@@ -26,6 +26,16 @@ background: linear-gradient(45deg, rgba(18,4,34,1) 0%, #4b2781 49%, #ff0078 100%
   width: 80px;
 }
 
+.nav-item a{
+  transition: all 1s;
+}
+
+.nav-item a:hover{
+  color: #ffd900  !important;
+ border-bottom:1px solid white;
+ transform: scale(1.1)
+}
+
 /* Estilos Footer */
 #footer {
   background: linear-gradient(45deg, rgba(18,4,34,1) 0%, rgba(75,39,129,1) 49%, rgba(255,0,120,1) 100%);
@@ -34,4 +44,4 @@ background: linear-gradient(45deg, rgba(18,4,34,1) 0%, #4b2781 49%, #ff0078 100%
 .iconos a i{
   color: white;
   font-size: 25px;
-}
+} 
