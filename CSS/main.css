@@ -1,0 +1,78 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.fondo {
+  background: -webkit-gradient(linear, left top, right top, from(#ff0078), color-stop(52%, #4b2781), to(#020024));
+  background: linear-gradient(90deg, #ff0078 0%, #4b2781 52%, #020024 100%);
+}
+
+.nombre-logo {
+  font-family: "Questrial", sans-serif;
+}
+
+.navbar {
+  z-index: 1000;
+  background: -webkit-gradient(linear, left top, right top, from(#ff0078), color-stop(52%, #4b2781), to(#020024));
+  background: linear-gradient(90deg, #ff0078 0%, #4b2781 52%, #020024 100%);
+}
+
+.navbar-brand img {
+  height: 80px;
+  width: 80px;
+}
+
+.nav-item__link {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  font-family: "Questrial", sans-serif;
+}
+
+.nav-item__link:hover {
+  color: #ffd900 !important;
+  border-bottom: 1px solid white;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/* Estilos Footer */
+#footer {
+  background: -webkit-gradient(linear, left top, right top, from(#ff0078), color-stop(52%, #4b2781), to(#020024));
+  background: linear-gradient(90deg, #ff0078 0%, #4b2781 52%, #020024 100%);
+}
+
+.iconos a i {
+  color: white;
+  font-size: 25px;
+}
+
+#footer h5 {
+  font-family: 'Questrial', sans-serif;
+}
+
+/* Estilos home */
+.banner {
+  background: url("../multimedia/banner.jpg") no-repeat;
+  background-size: cover;
+}
+
+#titulo {
+  margin: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .banner-text {
+    width: 50%;
+  }
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-/* Estilos generales */
+/* Estilos generales
 * {
   margin: 0;
   padding: 0;
@@ -41,7 +41,7 @@ background: linear-gradient(45deg, rgba(18,4,34,1) 0%, #4b2781 49%, #ff0078 100%
  transform: scale(1.1)
 }
 
-/* Estilos Footer */
+/* Estilos Footers
 #footer {
   background: linear-gradient(45deg, rgba(18,4,34,1) 0%, rgba(75,39,129,1) 49%, rgba(255,0,120,1) 100%);
 }
@@ -53,3 +53,4 @@ background: linear-gradient(45deg, rgba(18,4,34,1) 0%, #4b2781 49%, #ff0078 100%
 #footer h5{
   font-family: 'Questrial', sans-serif;
 }
+*/

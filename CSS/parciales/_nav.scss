@@ -1,0 +1,29 @@
+@import "./variables";
+.nombre-logo {
+  font-family: "Questrial", sans-serif;
+}
+
+.navbar {
+  z-index: 1000;
+  background: $fondo-gradiente;
+}
+
+.navbar-brand {
+  img {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.nav-item {
+  &__link {
+    transition: all 1s;
+    font-family: "Questrial", sans-serif;
+  }
+  
+  &__link:hover {
+  color: #ffd900 !important;
+  border-bottom: 1px solid white;
+  transform: scale(1.1);
+}
+}
