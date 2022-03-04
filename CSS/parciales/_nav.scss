@@ -1,4 +1,5 @@
 @import "./variables";
+@import"./sizes";
 .nombre-logo {
   font-family: "Questrial", sans-serif;
 }
@@ -10,8 +11,9 @@
 
 .navbar-brand {
   img {
-    height: 80px;
-    width: 80px;
+    @include sizes(80px,80px)
+    /* height: 80px;
+    width: 80px; */
   }
 }
 

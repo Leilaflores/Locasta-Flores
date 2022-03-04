@@ -4,6 +4,11 @@
   height: 100%;
 }
 
+.img-cont {
+  height: 225px;
+  width: 225px;
+}
+
 .img--1 {
   background-image: url("../../multimedia/Productos/vela(1).jfif");
   background-size: cover;
@@ -32,6 +37,11 @@
 .img--6 {
   background-image: url("../../multimedia/Productos/vela(6).jfif");
   background-size: cover;
+}
+
+.img-producto {
+  height: 250px;
+  width: 250px;
 }
 
 /* Estilos generales */
@@ -66,6 +76,8 @@ h1, h2, h3, h4, h5, h6, p {
 .navbar-brand img {
   height: 80px;
   width: 80px;
+  /* height: 80px;
+    width: 80px; */
 }
 
 .nav-item__link {
@@ -110,5 +122,10 @@ h1, h2, h3, h4, h5, h6, p {
   .banner-text {
     width: 50%;
   }
+}
+
+.banner {
+  height: 100%;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

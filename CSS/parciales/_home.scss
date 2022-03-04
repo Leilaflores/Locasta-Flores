@@ -1,4 +1,5 @@
 /* Estilos home */
+@import"./sizes";
 
 .banner {
     background: url("../multimedia/banner.jpg") no-repeat;
@@ -13,4 +14,8 @@
   .banner-text{
     width: 50%;
   }
+}
+
+.banner{
+  @include sizes (100%,100%)
 }
