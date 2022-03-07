@@ -9,6 +9,35 @@
   width: 225px;
 }
 
+/* Estilos css galeria */
+.img-cont {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.img-cont:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.img-cont img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 550px) {
+  #container {
+    padding: 20px 0;
+  }
+  .img-cont {
+    height: 300px;
+    width: 300px;
+  }
+}
+
 .img--1 {
   background-image: url("../../multimedia/Productos/vela(1).jfif");
   background-size: cover;
@@ -42,6 +71,13 @@
 .img-producto {
   height: 250px;
   width: 250px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.img-producto:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 /* Estilos generales */
@@ -63,6 +99,10 @@ h1, h2, h3, h4, h5, h6, p {
   background: linear-gradient(90deg, #ff0078 0%, #4b2781 52%, #020024 100%);
 }
 
+#container {
+  background-color: rgba(255, 255, 255, 0.075);
+}
+
 .nombre-logo {
   font-family: "Questrial", sans-serif;
 }
@@ -76,8 +116,6 @@ h1, h2, h3, h4, h5, h6, p {
 .navbar-brand img {
   height: 80px;
   width: 80px;
-  /* height: 80px;
-    width: 80px; */
 }
 
 .nav-item__link {
@@ -110,8 +148,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Estilos home */
 .banner {
-  background: url("../multimedia/banner.jpg") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../multimedia/banner.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../multimedia/banner.jpg") no-repeat;
   background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
 }
 
 #titulo {
@@ -127,5 +168,53 @@ h1, h2, h3, h4, h5, h6, p {
 .banner {
   height: 100%;
   width: 100%;
+}
+
+/* Estilos Conocenos */
+#video-cont {
+  width: 560px;
+}
+
+.video {
+  height: 350px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 559px) {
+  #video-cont {
+    width: 100%;
+  }
+  #container {
+    height: auto;
+    padding: 10px 0;
+  }
+}
+
+/* Estilos Contacto */
+form {
+  width: 300px;
+}
+
+.input-btn {
+  width: 35%;
+}
+
+.boton:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+.input-text:focus {
+  box-shadow: 0px 0px 11px 1px #ffd900;
+  -webkit-box-shadow: 0px 0px 11px 1px #ffd900;
+  -moz-box-shadow: 0px 0px 11px 1px #ffd900;
+  outline: 0 none;
+}
+
+.boton:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 /*# sourceMappingURL=main.css.map */

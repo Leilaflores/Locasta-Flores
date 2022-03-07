@@ -1,4 +1,5 @@
 @import"./sizes";
+@import"./variables";
 
 .img-1{
     position: absolute;
@@ -26,3 +27,29 @@
 .img-cont{
     @include sizes(225px,225px)
 }
+
+/* Estilos css galeria */
+
+  .img-cont {
+    transition: all 1s;
+  }
+  .img-cont:hover{
+    transform: scale(1.1);
+  }
+  
+  .img-cont img {
+    object-fit: cover;
+    object-position: center;
+  }
+  /* MEDIA QUERIES */
+  
+  @media screen and (max-width: 550px) {
+    #container {
+      padding: 20px 0;
+    }
+  
+    .img-cont {
+      height: 300px;
+      width: 300px;
+    }
+  }

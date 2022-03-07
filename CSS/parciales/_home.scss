@@ -1,21 +1,24 @@
 /* Estilos home */
-@import"./sizes";
+@import "./sizes";
 
 .banner {
-    background: url("../multimedia/banner.jpg") no-repeat;
-    background-size: cover;
-  }
-  
-  #titulo {
-    margin: 30px;
-  }
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../multimedia/banner.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode:darken;
+}
+
+
+#titulo {
+  margin: 30px;
+}
 
 @media screen and (min-width: 768px) {
-  .banner-text{
+  .banner-text {
     width: 50%;
   }
 }
 
-.banner{
-  @include sizes (100%,100%)
+.banner {
+  @include sizes(100%, 100%);
 }
