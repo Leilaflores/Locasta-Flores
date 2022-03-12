@@ -24,10 +24,6 @@
 }
 
 @media screen and (max-width: 575px) {
-  .banner-text {
-    width: 0;
-  }
-
 .banner {
   @include sizes(100%, 100%);
 }

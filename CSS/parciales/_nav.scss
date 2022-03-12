@@ -25,6 +25,12 @@
   &__link:hover {
   color: #ffd900 !important;
   border-bottom: 1px solid white;
-  transform: scale(1.1);
+}
+}
+
+@media screen and (min-width: 992px){
+
+  .nav-item__link:hover { 
+    transform: scale(1.1);
 }
 }
