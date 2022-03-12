@@ -4,7 +4,7 @@ $productos: ("1", "2", "3", "4", "5", "6");
 
 @each $producto in $productos {
   .img--#{$producto} {
-    background-image: url("../../multimedia/Productos/vela(#{$producto}).jpeg");
+    background-image: url("../multimedia/Productos/vela(#{$producto}).jpeg");
     background-size: cover;
     background-position: center;
   }

@@ -39,37 +39,37 @@
 }
 
 .img--1 {
-  background-image: url("../../multimedia/Productos/vela(1).jpeg");
+  background-image: url("../multimedia/Productos/vela(1).jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .img--2 {
-  background-image: url("../../multimedia/Productos/vela(2).jpeg");
+  background-image: url("../multimedia/Productos/vela(2).jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .img--3 {
-  background-image: url("../../multimedia/Productos/vela(3).jpeg");
+  background-image: url("../multimedia/Productos/vela(3).jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .img--4 {
-  background-image: url("../../multimedia/Productos/vela(4).jpeg");
+  background-image: url("../multimedia/Productos/vela(4).jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .img--5 {
-  background-image: url("../../multimedia/Productos/vela(5).jpeg");
+  background-image: url("../multimedia/Productos/vela(5).jpeg");
   background-size: cover;
   background-position: center;
 }
 
 .img--6 {
-  background-image: url("../../multimedia/Productos/vela(6).jpeg");
+  background-image: url("../multimedia/Productos/vela(6).jpeg");
   background-size: cover;
   background-position: center;
 }
@@ -159,8 +159,8 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* Estilos home */
 .banner {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.719))), url("../../multimedia/banner4.jpg") no-repeat;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.719)), url("../../multimedia/banner4.jpg") no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.719))), url("../multimedia/banner4.jpg") no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.719)), url("../multimedia/banner4.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-blend-mode: darken;
