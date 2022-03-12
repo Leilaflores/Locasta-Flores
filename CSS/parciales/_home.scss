@@ -2,7 +2,7 @@
 @import "./sizes";
 
 .banner {
-  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("../../multimedia/banner4.jpg") no-repeat;
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.719) ), url("../../multimedia/banner4.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   background-blend-mode:darken;
@@ -13,12 +13,23 @@
   margin: 30px;
 }
 
+.banner-text{
+  font-size: 30px;
+}
+
 @media screen and (min-width: 768px) {
   .banner-text {
     width: 50%;
   }
 }
 
+@media screen and (max-width: 575px) {
+  .banner-text {
+    width: 0;
+  }
+
 .banner {
   @include sizes(100%, 100%);
+}
+
 }
